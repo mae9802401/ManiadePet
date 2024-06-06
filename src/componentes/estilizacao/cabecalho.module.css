@@ -1,0 +1,41 @@
+.direcionador{
+    color:pink;
+    font-size: 18px;
+    color:black;
+    margin-left: 18px;   /*esquerda*/
+    margin-right: 10px;
+
+}
+
+.cabecalho{
+   background-color: white;
+   display: flex;  /*{p deixar na msm linha}*/
+   align-items: center;
+   flex-direction: row;
+   padding-left: 20px;
+  
+}
+
+.imagem{
+    width: 70px;
+    height: 70px;
+    z-index: 1000px;
+
+}
+
+.nomeempresa{
+    flex-direction: column;
+    margin-right: 235px;
+    line-height: 1px;
+    
+}
+
+.texto{
+font-size: 20px;
+
+}
+
+.texto2{
+    font-size: 20px;
+
+}

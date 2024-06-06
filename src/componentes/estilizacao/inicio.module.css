@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+.corpo{
+    position: relative;
+    background:linear-gradient(#066fb4, #d9dcfa);
+    align-items: center;   
+
+}
+
+.imagem{
+    width: 1350px;
+    height: 600px;
+    -webkit-filter: blur(1px);  /*para fazer a imagem ficar desfocada*/
+    -moz-filter: blur(1px);
+    -o-filter:blur(1px);
+    -ms-filter:blur(1px);           
+    filter:blur(2px); 
+
+}
+
+
+
+.texto{
+    display:flex;
+    flex-direction: column;
+    margin-left: 25px;
+    
+   
+}
+
+.titulo{
+    font-size: 40px;
+    font-family: "Mochiy Pop One", sans-serif;
+    top:200px;
+    position: absolute;
+    color:rgb(5, 19, 100);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffffff;
+    font-weight: bolder;
+}
+
+.subtitulo{
+    font-size: 40px;
+    font-family: "Mochiy Pop One", sans-serif;
+    top:250px;
+    position: absolute;
+    color:rgb(5, 19, 100);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffffff;
+    font-weight: bolder;  /*P deixar a letra grossa*/
+}
+
+.botao{
+    width: 290px;
+    height: 70px;
+    background-color: rgb(14, 58, 109);
+    color: white;
+    border-radius: 25px;
+    font-size: 25px;
+    border-style:none ;
+    position: absolute;
+    bottom: 180px;
+    margin-left: 120px;
+
+}
